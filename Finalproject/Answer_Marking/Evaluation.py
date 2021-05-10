@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 
 
-    '''print("Now Model loading starting")
+    print("Now Model loading starting")
 
     
     #path of a trained data of word2Vec
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
     distance = wordmoverdist(preprocessing(sentence_1), preprocessing(sentence_2), model)
     obt_mark = marksallot_partiall(distance, max_marks)
-    print('distance = %.4f' % distance, "     Marks = ", obt_mark)'''
+    print('distance = %.4f' % distance, "     Marks = ", obt_mark)
 
 
 
